@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none; /* 去除下划线 */
+  color: inherit; /* 继承父元素的颜色 */
+  }
+
+body{
+  font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
