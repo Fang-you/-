@@ -1,16 +1,47 @@
-这个是我本人学校官网的复刻文件，包含css,js html,swipper插件，运用felx布局，百度的iconfont图标库，使用less进行css的编写，用pxcook计算页面间距，以下是文件目录
-<img width="538" height="766" alt="image" src="https://github.com/user-attachments/assets/ad366ee9-a3a1-4c63-8faf-b03dac5b2e8f" />
-进入index的文件截图：
-<img width="2155" height="1189" alt="image" src="https://github.com/user-attachments/assets/be1b5147-9099-4621-876e-0aad93dc360c" />
-<img width="2160" height="1331" alt="image" src="https://github.com/user-attachments/assets/78e4b661-dd63-424d-8e2f-17d87d4deff8" />
+# 学校官网首页复刻项目
+这是一个**纯前端手工像素级复刻**本校官网首页的项目，旨在巩固前端基础技能，同时为同校学弟学妹提供前端学习参考素材，项目源码可直接下载使用。
 
-官网真实截图：
-<img width="2139" height="1205" alt="image" src="https://github.com/user-attachments/assets/c1125830-6866-4a20-a5a1-4b2522f677b6" />
-<img width="2152" height="1182" alt="image" src="https://github.com/user-attachments/assets/5bb8b472-9fbd-4558-a735-7d22e223b6e2" />
-通过全手工复刻学校官网首页的绝大部分内容，我系统性的复习了，css html,并运用swipper插件，百度的iconfont图标库，还学会使用pxcook以及鼠标右键检查查看浏览器内html元素间间隔等实现像素级还原。
-有同校需要源码的学弟学妹可以下载
+## 项目亮点
+1.  **像素级还原**：借助 `PxCook` 精准计算页面元素间距、尺寸，结合浏览器开发者工具（右键检查）分析原页面布局，最大程度还原官网首页的视觉效果与页面结构。
+2.  **核心技术栈**：基于原生 `HTML`（页面结构搭建）、`CSS`（样式美化）、`JavaScript`（交互逻辑实现）进行开发，无框架依赖，适合前端入门学习。
+3.  **增强型样式方案**：使用 `Less` 编写 `CSS` 代码，提升样式的可维护性、复用性，简化嵌套样式的编写，告别繁琐的原生 `CSS` 冗余代码。
+4.  **灵活布局实现**：全程采用 `Flex` 弹性布局完成页面的响应式排布与元素对齐，完美还原官网的页面结构层级，适配不同屏幕尺寸的基础展示需求。
+5.  **第三方工具与插件集成**
+    -  集成 `Swiper` 轮播插件，实现官网首页的焦点图轮播效果，还原动态交互场景。
+    -  引入百度 `Iconfont` 图标库，复用官网同款图标，保证视觉一致性的同时，提升页面加载效率。
 
+## 项目目录结构
+```
+├── （对应截图中的项目文件，核心目录/文件说明）
+├── css/          # 最终编译后的 CSS 样式文件（含 Less 编译产物）
+├── js/           # JavaScript 交互逻辑文件（含 Swiper 插件及自定义脚本）
+├── less/         # Less 源文件（样式开发主目录，便于维护和修改）
+├── iconfont/     # 百度 Iconfont 图标库相关文件（字体文件、样式文件）
+├── images/       # 页面所需图片资源（轮播图、官网配图等）
+└── index.html    # 项目入口页面（首页核心结构）
+```
 
+## 项目使用说明
+1.  直接克隆或下载本项目源码至本地；
+2.  无需额外配置环境，直接用浏览器打开 `index.html` 文件即可查看复刻效果；
+3.  若需修改样式，可编辑 `less/` 目录下的对应文件，编译后更新至 `css/` 目录即可生效。
 
+## 学习价值
+本项目是前端入门的优质实战参考，通过复刻过程可系统性掌握：
+-  HTML 页面结构搭建、标签语义化使用；
+-  CSS 样式美化、Flex 布局的灵活运用；
+-  Less 预处理器的基本使用与样式工程化思维；
+-  第三方插件（Swiper）与图标库（Iconfont）的集成方法；
+-  像素级还原页面的实战技巧（PxCook 工具、浏览器开发者工具调试）。
+
+## 适用人群
+本校前端入门的学弟学妹、想要巩固原生前端基础的学习者。
+
+## 补充说明
+本项目仅用于**学习交流与个人复习**，所有页面内容、图片、图标均来源于本校官网，不用于任何商业用途。
+
+<img width="2155" height="1304" alt="image" src="https://github.com/user-attachments/assets/27c9c22c-3a79-4344-bab0-462c3ccb8e09" />
+<img width="2160" height="1293" alt="image" src="https://github.com/user-attachments/assets/78d562c7-2065-49b1-8183-7d1a8241365e" />
+<img width="2160" height="1317" alt="image" src="https://github.com/user-attachments/assets/19803572-2d0c-4bf4-aceb-fe2c5b22f015" />
 
 
